@@ -29,9 +29,12 @@ public class TextBoxes extends AnAction{
                 "Dummy message",
                 "Dummy title",
                 Messages.getQuestionIcon());
-        Messages.showMessageDialog(project,
-                "Hello, " + inputTxt + "!\n I am glad to see you.",
-                "Dummy Information",
-                Messages.getInformationIcon());
+        // Cancel on showInputDialog -> inputTxt == null
+        if (inputTxt!=null) {
+            Messages.showMessageDialog(project,
+                    "Hello, " + inputTxt + "!\n I am glad to see you.",
+                    "Dummy Information",
+                    Messages.getInformationIcon());
+        }
     }
 }
