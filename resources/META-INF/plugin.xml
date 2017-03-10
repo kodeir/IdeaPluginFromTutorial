@@ -29,8 +29,11 @@
   <actions>
     <group id="PluginFromTutorial.DummyMenu" text="_Dummy Menu" description="Dummy menu">
       <add-to-group group-id="MainMenu" anchor="last"  />
-      <action id="PluginFromTutorial.Textboxes" class="com.kodeir.plugin.pft01.TextBoxes"
-              text="Text __Boxxes" description="A test menu item as it is" />
+      <action id="PluginFromTutorial.Textboxes"
+              class="com.kodeir.plugin.pft01.TextBoxes"
+              text="Text __Boxxes"
+              description="A test menu item as it is"
+              icon="/icons/crash_test_dummy.png"/>
     </group>
   </actions>
 

@@ -12,13 +12,15 @@ import com.intellij.openapi.util.IconLoader;
  */
 public class TextBoxes extends AnAction{
 
-    // You can omit this constructor when registering the action in the plugin.xml file.
+    /*
+    // constructor is omitted as the action is now registered in the plugin.xml file.
     public TextBoxes(){
         // defining menu item name
         super("Text __Boxxes",
                 "dummy description",
                 IconLoader.getIcon("/icons/crash_test_dummy.png"));
     }
+    */
 
     @Override
     public void actionPerformed(AnActionEvent anActionEvent) {
