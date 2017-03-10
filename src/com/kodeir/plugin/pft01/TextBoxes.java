@@ -17,7 +17,7 @@ public class TextBoxes extends AnAction{
         // defining menu item name
         super("Text __Boxxes",
                 "dummy description",
-                IconLoader.getIcon("/crash_test_dummy.png"));
+                IconLoader.getIcon("/icons/crash_test_dummy.png"));
     }
 
     @Override
