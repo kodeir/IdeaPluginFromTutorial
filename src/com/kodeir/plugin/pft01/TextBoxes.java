@@ -25,12 +25,12 @@ public class TextBoxes extends AnAction{
     @Override
     public void actionPerformed(AnActionEvent anActionEvent) {
         Project project = anActionEvent.getData(PlatformDataKeys.PROJECT);
-        String txt= Messages.showInputDialog(project,
+        String inputTxt= Messages.showInputDialog(project,
                 "Dummy message",
                 "Dummy title",
                 Messages.getQuestionIcon());
         Messages.showMessageDialog(project,
-                "Hello, " + txt + "!\n I am glad to see you.",
+                "Hello, " + inputTxt + "!\n I am glad to see you.",
                 "Dummy Information",
                 Messages.getInformationIcon());
     }
